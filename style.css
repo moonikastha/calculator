@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+form {
+    background-color: rgb(237, 222, 222);
+    margin-left: 500px;
+    width: 30%;
+    border-radius: 1rem;
+    border: 2px solid;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(178, 180, 184, 0.3);
+    height: 25rem;
+}
+input {
+    margin-left: 12px;
+    width: 20%;
+    height: 3rem;
+    border: 2px solid;
+    border: 2px solid;;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    color: rgb(137, 137, 137);
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+#answer {
+    text-align: left;
+    padding: 1.4rem;
+    margin-top: 8px;
+    margin-left: 12px;
+    width: 95%;
+    height: 2rem;
+    border: 2px solid;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    color: rgb(137, 137, 137);
+    border-radius: 0.7rem;
+}
+
+#clear {
+    margin-left: 18px;
+    width: 90%;
+    height: 2.8rem;
+    border: 2px solid ;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    color: rgb(137, 137, 137);
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    justify-content: space-between;
+}
+#clear:hover{
+    background-color: rgb(58, 73, 73);
+    color: rgb(236, 227, 227);
+}
+h2 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(221, 219, 228);
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    h2 {
+        margin-left: 300px;
+    }
+    .switch{
+    top: 5px;
+    left: 1100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    h2 {
+        margin-left: 100px;
+    }
+    .switch{
+        top: 5px;
+        left: 900px;
+        }
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        margin-left: 20px;
+        border: 3px solid rgb(222, 212, 212);
+        width: 85%;
+
+    }
+    .switch{
+        top: 5px;
+        left: 700px;
+        }
+}
+
+@media screen and (max-width: 916px) {
+    form {
+        margin-left: 190px;
+        border: 3px solid rgb(222, 212, 212);
+        width: 50%;
+        .switch{
+            top: 5px;
+            left: 500px;
+            }
+
+    }
+}
+
+@media screen and (max-width: 560px) {
+    form {
+        margin-left: 10px;
+        border: 3px solid rgb(222, 212, 212);
+        width: 90%;
+        .switch{
+            top: 5px;
+            left: 400px;
+            }
+
+    }
+}
+
+@media screen and (max-width: 300px) {
+    form {
+        margin-left: 30px;
+        border: 3px solid rgb(222, 212, 212);
+        width: 95%;
+
+    }
+
+    input {
+        margin-left: 8px;
+    }
+
+    #answer {
+        margin-left: 8px;
+    }
+
+    h2 {
+        margin-left: -8px;
+    }
+    .switch{
+        margin-left: 110px;
+        }
+}
